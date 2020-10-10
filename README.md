@@ -15,6 +15,10 @@ Many new jailbreak devs are find it difficult and/or a hassle to run apps as roo
 - Grab rocketbootstrap headers (https://github.com/rpetrich/RocketBootstrap/tree/master)
 - Take any xcode project and link it with librocketbootstrap.dylib (Take this from your device, it's on /usr/lib))
 - Include "rocketbootstrap.h" and "LightMessaging.h" on your main.m file
+```
+#include "rocketbootstrap.h"
+#include "LightMessaging.h"
+```
 - Add this code on it:
     ```
     LMConnection connection = {
