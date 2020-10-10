@@ -5,7 +5,7 @@ That being said, some documentation has changed!
 
 How to run Xcode apps as root and unsandboxed while still debugging them easiliy?
 
-Many new jailbreak devs are find it difficult and/or a hassle to run apps as root and debug them at the same time. I got this idea when working on a project, a cydia application (eta **not** son) which needed root, but at the same time was complex and I needed a good and easy way to debug it. That's why I made this tool. At first it was private, considering any App Store apps can bundle this method (if they're smart enough to bypass the App Store checks) but I just reminded a project of MasBog where he could detect if an app was being debugged or not, I implemented that and made rootme only work while the app is being debugged. Huge thanks to MasBog!
+Many new jailbreak devs are find it difficult and/or a hassle to run apps as root and debug them at the same time(eh, no sense of writing a new description when its basically the same thing, blah blah, balah.)
 
 # How to set it up?
 
