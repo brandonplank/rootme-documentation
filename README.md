@@ -42,5 +42,5 @@ Notes:
 - rootme will fully unsandbox your app
 - killing an app using the stop button on Xcode doesn't seem to work but you can kill it from the app switcher yourself
 - if you find any bugs tell me
-- Will not open-source because it'll be easy for people to manipulate it. 
+- Will not open-source because it'll be easy for people to manipulate it, besides, you can re make it like i did lol.
 - Credits to: Jake James, 0x7ff.
