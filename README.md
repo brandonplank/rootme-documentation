@@ -10,6 +10,7 @@ Many new jailbreak devs are find it difficult and/or a hassle to run apps as roo
 # How to set it up?
 
 - Install rootme from my repo (https://repo.brandonplank.org/) and run it, preferably using SSH on a computer or NewTerm 2. (This way you can terminate it when you're done using Control + C). 
+- You can also run rootme as a "daemon" by typing in rootme & and pressing Control + C (not recommended for security)
 - Grab LightMessaging headers and add them into your include path (https://github.com/rpetrich/LightMessaging)
 - Grab rocketbootstrap headers (https://github.com/rpetrich/RocketBootstrap/tree/master)
 - Take any xcode project and link it with librocketbootstrap.dylib (Take this from your device, it's on /usr/lib))
