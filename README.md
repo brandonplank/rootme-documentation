@@ -28,7 +28,7 @@ Many new jailbreak devs are find it difficult and/or a hassle to run apps as roo
     LMResponseBuffer buffer;
     NSString *pid = [NSString stringWithFormat:@"%d", getpid()];
     const char *msg = [pid UTF8String];
-    SInt32 messageId = 0x1111;
+    SInt32 messageId = 0x69; //0x69 is the identity of rootme
     printf("UID before: %d\n", getuid());
     LMConnectionSendTwoWay(&connection, messageId, msg, strlen(msg) + 1, &buffer);
     LMMessage *response = &(buffer.message);
@@ -40,6 +40,17 @@ Many new jailbreak devs are find it difficult and/or a hassle to run apps as roo
     setgid(0);
     printf("gid after: %d\n", getgid());
     ```
+    
+- If you want tfp0 in your app, add the following code!
+```
+    SInt32 messageId2 = 0x420; //0x420 is the identity of hsp4
+    LMConnectionSendTwoWay(&connection, messageId2, NULL, NULL, &buffer);
+    LMMessage *response2 = &(buffer.message);
+    const char *data2 = LMMessageGetData(response2);
+    printf("tfp0: 0x%x\n", atoi(data2));
+    LMResponseBufferFree(&buffer);
+```
+
 - Done! Enjoy!
 
 Notes:
