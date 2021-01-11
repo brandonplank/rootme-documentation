@@ -1,5 +1,5 @@
 # rootme-documentaion
-Based off of Jake James rootme, but up to date for iOS 11 - 13.x
+Based off of Jake James rootme, but up to date for iOS 11 - 13.x(14 eta s0n)
 
 That being said, some documentation has changed!
 
